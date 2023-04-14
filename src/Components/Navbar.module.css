@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+p{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
