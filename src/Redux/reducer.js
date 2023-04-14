@@ -1,7 +1,7 @@
 import { DATA_FAILURE, DATA_REQUEST, DATA_SUCCESS } from "./actionTypes";
 
 const init = {
-  highlights: [],
+  data: {},
   isloading: false,
 };
 
@@ -16,7 +16,7 @@ export const reducer = (state = init, { type, payload }) => {
     case DATA_SUCCESS: {
       return {
         ...state,
-        highlights: payload,
+        data: payload,
         isloading: false,
       };
     }

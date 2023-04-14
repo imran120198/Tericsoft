@@ -18,55 +18,55 @@ class Navbar extends Component {
         <div>
           <Link to="/featured" style={{ textDecoration: "none" }}>
             <img src={star} alt="featured" />
-            <p>Featured</p>
+            <p style={{marginLeft:"-12px"}}>Featured</p>
           </Link>
         </div>
         <div>
           <Link to="/armoury" style={{ textDecoration: "none" }}>
             <img src={armoury} alt="Armoury" />
-            <p>Armoury</p>
+            <p style={{marginLeft:"-12px"}}>Armoury</p>
           </Link>
         </div>
         <div>
           <Link to="/aquatics" style={{ textDecoration: "none" }}>
             <img src={swim} alt="Aquatics" />
-            <p>Aquatics</p>
+            <p style={{marginLeft:"-12px"}}>Aquatics</p>
           </Link>
         </div>
         <div>
           <Link to="/" style={{ textDecoration: "none" }}>
             <img src={bike} alt="Cycling" />
-            <p>Cycling</p>
+            <p style={{marginLeft:"-12px"}}>Cycling</p>
           </Link>
         </div>
         <div>
           <Link to="/equestrian" style={{ textDecoration: "none" }}>
             <img src={horse} alt="Equestrian" />
-            <p>Equestrian</p>
+            <p style={{marginLeft:"-20px"}}>Equestrian</p>
           </Link>
         </div>
         <div>
           <Link to="/extreme" style={{ textDecoration: "none" }}>
             <img src={extreme} alt="Extreme" />
-            <p>Extreme</p>
+            <p style={{marginLeft:"-12px"}}>Extreme</p>
           </Link>
         </div>
         <div>
           <Link to="/golf" style={{ textDecoration: "none" }}>
             <img src={golf} alt="Golf" />
-            <p>Golf</p>
+            <p style={{marginLeft:"-12px"}}>Golf</p>
           </Link>
         </div>
         <div>
           <Link to="/gymnastics" style={{ textDecoration: "none" }}>
             <img src={gym} alt="Gymnastics" />
-            <p>Gymnastics</p>
+            <p style={{marginLeft:"-20px"}}>Gymnastics</p>
           </Link>
         </div>
         <div>
           <Link to="/lakeandSea" style={{ textDecoration: "none" }}>
-            <img src={lake} alt="leke and sea" />
-            <p>Lake & Sea</p>
+            <img src={lake} alt="lake and sea" />
+            <p style={{marginLeft:"-20px"}}>Lake & Sea</p>
           </Link>
         </div>
       </div>

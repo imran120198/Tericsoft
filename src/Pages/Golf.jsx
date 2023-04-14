@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getdata } from "../Redux/action";
+import { Container } from "@chakra-ui/react";
+import { Option } from "../Components/Option";
 
 const Golf = () => {
-  return (
-    <div>Golf</div>
-  )
-}
+  const dispatch = useDispatch();
+  const data = useSelector((state) => state.data);
 
-export default Golf
+  console.log(data?.data?.data);
+
+  useEffect(() => {
+    dispatch(getdata("golf"));
+  }, []);
+  // console.log(data);
+
+  return (
+    <div>
+      <Container maxW={"80%"} h="85vh">
+        <Option data={data} />
+      </Container>
+    </div>
+  );
+};
+
+export default Golf;
